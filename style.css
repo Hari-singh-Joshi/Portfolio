@@ -243,7 +243,7 @@ footer p {
 /* Media Queries for Mobile and Tablet */
 
 
-}
+
 
 @media (max-width: 768px) {
     .container {
@@ -281,13 +281,14 @@ footer p {
 
     .nav-links {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
-        gap: 10px;
+        gap: 6px;
     }
 
     .about-content .profile-pic {
         margin: 0 auto 20px;
+        
     }
 
     .skills-container {
