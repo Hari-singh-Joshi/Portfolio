@@ -48,9 +48,9 @@ nav {
 }
 
 .about-section, .skills-section, .projects-section, .certifications-section, .contact-section {
-    padding: 100px 0;
+    padding: 70px 0;
     background: #f4f4f4;
-    min-height: 100vh;
+    min-height: 30vh;
 }
 
 .about-section {
@@ -94,6 +94,7 @@ nav {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+
    
 }
 
@@ -111,6 +112,7 @@ nav {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin: 0px;
 }
 
 .project {
